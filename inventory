@@ -4,4 +4,4 @@ pi102    ansible_host=10.0.0.102
 pi103    ansible_host=10.0.0.103
 
 [master]
-pi100
+pi100    ansible_host=10.0.0.100

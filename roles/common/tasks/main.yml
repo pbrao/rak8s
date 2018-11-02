@@ -14,6 +14,13 @@
   register: hostname
   tags: hostname
 
+- name: Ensure master is in /etc/hosts
+  lineinfile:
+    dest: /etc/hosts
+    line: "10.0.0.100 pi100 pi100"
+  register: hostname_master
+  tags: hostname_master
+
 - name: set timezone to UTC
   timezone:
     name: UTC
