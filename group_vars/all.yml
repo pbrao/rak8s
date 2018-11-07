@@ -32,7 +32,7 @@ docker_ce_version: "18.04.0~ce~3-0~raspbian"
 # 18.02.0~ce-0~raspbian
 # 18.01.0~ce-0~raspbian
 
-flannel_version: "v0.10.0"
+flannel_version: "master"
 # v0.10.0
 # v0.9.1
 # v0.9.0
